@@ -1,0 +1,26 @@
+<!--demo9/demo9.wxml-->
+<view class="main">
+  <image class="background" src="../../images/13.png" mode="aspectFill"></image>
+  <view class="place">
+  <view class="text-style">在家时，你是否也会有这样的烦恼呢？</view>
+  <image src="../../images/jiaju.gif" class="img2" mode="widthFix"></image>
+  <view class="text-style">别担心，小电来咯！</view>
+  <view class="view_kind" wx:for="{{kindList}}" wx:key="{{item.text}}">
+		<button class="button_kind" style="background:{{item.color}};" data-item="{{item}}" bindtap="doClick">
+			<image class="image_kind" src="{{item.imgPath}}" mode="aspectFit" /> {{item.text}}
+		</button>
+	</view>
+	<view class="view_kindList">
+  <view class="view_kind">
+  <button bindtap="doClick1" class="button_kind" style="background-color: #3B5678;">
+	  <image class="image_kind" src="../../images/hujiao.png" mode="aspectFit"/>呼叫小电</button>
+		  <button bindtap="doClick4" class="button_kind" style="background-color: #3B5678;">
+		<image class="image_kind" src="../../images/fanhui.png" mode="aspectFit"/>小电归位</button>
+  <button bindtap="doClick2" class="button_kind" style="background-color: #3B5678;">
+		<image class="image_kind" src="../../images/dakai.png" mode="aspectFit"/>小电开盖</button>
+  <button bindtap="doClick3" class="button_kind" style="background-color: #3B5678;">
+		<image class="image_kind" src="../../images/guanbi.png" mode="aspectFit"/>小电关盖</button>
+</view>
+  </view>
+  </view>
+</view>

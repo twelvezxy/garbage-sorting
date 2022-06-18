@@ -1,0 +1,47 @@
+{
+	"pages": [
+		"pages/first/first",
+		"pages/kindInfo/kindInfo",
+		"pages/main/main",
+		"pages/search/search",
+		"pages/tell/tell",
+		"pages/throw/throw",
+		"pages/index/index",
+		"components/chatroom/chatroom",
+		"pages/garbage-sort/garbage-sort"
+	],
+	"window": {
+		"backgroundColor": "#ffffff",
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#3B5678",
+		"navigationBarTitleText": "智能分类垃圾桶",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"color": "#101010",
+		"selectedColor": "#ffffff",
+		"borderStyle": "white",
+		"backgroundColor": "#3B5678",
+		"list": [
+			{
+				"pagePath": "pages/main/main",
+				"iconPath": "/images/shouye.png",
+				"selectedIconPath": "/images/shouye.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"iconPath": "/images/sousuo.png",
+				"selectedIconPath": "/images/sousuo.png",
+				"text": "搜索"
+			},
+			{
+				"pagePath": "pages/throw/throw",
+				"iconPath": "/images/jiaohu.png",
+				"selectedIconPath": "/images/jiaohu.png",
+				"text": "交互"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+<image class="img2" src="cloud://test-9gnbwxf8c046ef34.7465-test-9gnbwxf8c046ef34-1312340747/垃圾分类.png" mode="widthFix" ></image>
+<scroll-view class="container">
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+ <block wx:for="{{imgUrls}}">
+   <swiper-item>
+     <image src="{{item}}"  style="height: 400px; width: 100%;"   class='img' />
+  </swiper-item>
+ </block>
+</swiper>
+</scroll-view>
+

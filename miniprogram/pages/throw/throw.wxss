@@ -1,0 +1,69 @@
+
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size:100% 100%;
+  z-index: -1;
+}
+.place {
+  color: aliceblue;
+  height: 1000px;
+  width: auto;
+}
+.text-style{
+	margin: 50rpx;
+  color:black;
+  font-size: large;
+  font-weight: 800;
+  font-family:monospace;
+  display:flex;
+  justify-content:center;
+}
+.text-style2{
+	margin: 50rpx;
+  color:black;
+  font-size: larger;
+  font-weight: 800;
+  font-family:monospace;
+  display:flex;
+  justify-content:center;
+}
+.view_kind {
+  width: 100%;
+  height: 1000rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button_kind {
+	margin: 30rpx;
+  color: white;
+  width: 80%;
+  height: 80%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_kind {
+  margin-top: 10rpx;
+  width: 90%;
+  height: 90%;
+}
+.view_kindList {
+  width: 100%;
+  height: 80%;
+  column-count: 2;
+  column-gap: 0;
+}
+.img2 {
+  width: 100%;
+  height: 270rpx;
+  background-color: white;
+}
